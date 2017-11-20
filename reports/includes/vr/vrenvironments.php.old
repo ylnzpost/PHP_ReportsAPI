@@ -1,0 +1,59 @@
+<?php
+
+$envs = array(
+  "PROD_WG_ASP" => array(
+    "dcshost" => "vr2-wg-prod-dcs-03",
+    "dathost" => "vr2-wg-prod-dat-03",
+    "nas" => "vr2-wg-prod-nas-03",
+  ),
+  "PROD_WG_02" => array(
+    "dcshost" => "vr2-wg-prod-dcs-02",
+    "dathost" => "vr2-wg-prod-dat-03",
+    "nas" => "vr2-wg-prod-nas-03",
+		"dbname"	=> "vretrieve02"
+  ),
+  "PROD_WG_RSP" => array(
+    "dcshost" => "vr2-wg-prod-dcs-01",
+    "dathost" => "vr2-wg-prod-dat-01",
+    "nas" => "vr2-wg-prod-dcs-01",
+		"dbname"	=> "vretrieve01"
+  ),
+  "PROD_AK_DR" => array(
+    "dcshost" => "vr2-ak-prod-dcs-01",
+    "dathost" => "vr2-ak-prod-dat-01",
+    "nas" => "vr2-ak-prod-nas-01",
+  ),
+  "BNZ_PROD_WG" => array(
+    "dcshost" => "bnz-wg-prod-dcs-01",
+    "dathost" => "bnz-wg-prod-dat-01",
+    "nas" => "bnz-wg-prod-dat-01",
+  ),
+  "BNZ_PROD_AK" => array(
+    "dcshost" => "bnz-ak-dr-dcs-01",
+    "dathost" => "bnz-ak-dr-dat-01",
+    "nas" => "bnz-ak-dr-adm-01",
+  ),
+  "UAT" => array(
+    "dcshost" => "vr2-wg-uat-dcs-02",
+    "dathost" => "vr2-wg-uat-dat-02",
+    "nas" => "vr2-wg-uat-nas-01",
+  ),
+  "TEST" => array(
+    "dcshost" => "vr2-ak-test-dcs-01",
+    "dathost" => "vr2-ak-test-dat-01",
+    "nas" => "vr2-ak-test-nas-01",
+  ),
+  "TEST02" => array(
+    "dcshost" => "vr2-ak-test-dcs-02",
+    "dathost" => "vr2-ak-test-dat-02",
+    "nas" => "vr2-ak-test-nas-02",
+  ),
+  "DEV" => array(
+    "dcshost" => "vr2-ak-dev-dcs-01",
+    "dathost" => "vr2-ak-dev-dat-01",
+    "nas" => "vr2-ak-dev-nas-01",
+  ),
+
+);
+
+?>
